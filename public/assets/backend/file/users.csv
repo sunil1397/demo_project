@@ -1,0 +1,3 @@
+user_id,first_name,last_name,gender,date_of_birth,address,mobile_number,work_phone_number,username,email,password,status,user_type,fk_user_role
+,Samir,Jana,m,19980322,"Kolkata, West Bengal",9876543210,9876543210,samir_1,samir@gmail.com,123,,A,2
+,Mamoni,Jana,f,19820819,"Kolkata, West Bengal",9876543210,9876543210,mamoni,mamoni@gmail.com,123,,S,10

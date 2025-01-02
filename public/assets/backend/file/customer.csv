@@ -1,0 +1,2 @@
+client_id,customer_id,customer_name,password,reg_no,sponsor_name,sponsor_category,sponsor_place_of_work,sponsor_id,credit_appl_ind,other_customer_code,authorizer_name,customer_email_id,customer_wa_no,customer_off_msg_no,security_cheques_submitted,application_required_ind,customer_credit_limit,customer_credit_period,customer_discount_percent,customer_payment_method,customer_region,customer_teritory,customer_area,customer_stopsale,,delete_status,created_at,updated_at
+,102,Mahendra,123,5847,mha,,,,y,,,maha234@gmail.com,9876543210,,y,y,100000,,10,card,,,,,,,,

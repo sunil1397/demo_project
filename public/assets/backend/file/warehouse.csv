@@ -1,0 +1,2 @@
+warehouse_id,name,address,city_id,state_id,country_id,manager,contact,surface,volume,freezone,status,created_at,updated_at
+,Warehouse Syria,"Kolkata, West Bengal",8,9,4,Demo,9876543210,90000,865487,654122,,,
