@@ -1,0 +1,39 @@
+version: '3.7'
+
+services:
+  # Laravel PHP Application
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: laravel-app
+    ports:
+      - "8080:9000"  # Expose PHP-FPM on port 9000 and map it to host port 8080
+    volumes:
+      - .:/var/www  # Mount current directory to container directory
+    networks:
+      - laravel-network
+    depends_on:
+      - db
+
+  # MySQL Database
+  db:
+    image: mysql:5.7
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: demo_project
+      MYSQL_USER: demo_project_user
+      MYSQL_PASSWORD: t=5+5YLp]Y)K
+    volumes:
+      - db-data:/var/lib/mysql  # Persist database data
+    networks:
+      - laravel-network
+
+networks:
+  laravel-network:
+    driver: bridge
+
+volumes:
+  db-data:
+    driver: local
