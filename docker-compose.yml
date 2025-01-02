@@ -22,9 +22,9 @@ services:
     container_name: mysql-db
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: demo_project
-      MYSQL_USER: demo_project_user
-      MYSQL_PASSWORD: t=5+5YLp]Y)K
+      MYSQL_DATABASE: demo_project_laravel
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 
     volumes:
       - db-data:/var/lib/mysql  # Persist database data
     networks:
